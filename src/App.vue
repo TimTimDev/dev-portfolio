@@ -1,7 +1,7 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue';
+import Projects from './components/Projects.vue';
 </script>
 
 <template>
@@ -14,7 +14,7 @@ import TheWelcome from './components/TheWelcome.vue';
   </header>
   <div class="flex flex-col items-center text-center">
     <HelloWorld msg="Hello there!" />
-    <TheWelcome />
+    <Projects />
 
   </div>
 
