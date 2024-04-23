@@ -1,0 +1,34 @@
+{
+    "cards": [
+        {
+            "title": "Eraspordikool Sepps",
+            "link": "https://www.sepps.eu",
+            "techs": ["HTML5", "TailwindCSS", "Statamic"],
+            "imgSrc": "src/assets/project_imgs/sepps.png"
+        },
+        {
+            "title": "Valmari Foto",
+            "link": "https://valmarifoto.com/",
+            "techs": ["HTML5", "TailwindCSS", "Statamic"],
+            "imgSrc": "src/assets/project_imgs/valmarifoto_suur.png"
+        },
+        {
+            "title": "Kalma Ehitus",
+            "link": "https://kalmaehitus.ee/",
+            "techs": ["HTML5", "TailwindCSS", "Statamic"],
+            "imgSrc": "src/assets/project_imgs/kalma.png"
+        },
+        {
+            "title": "Kohala Lapitekk",
+            "link": "https://www.lapitekk.ee/",
+            "techs": ["HTML5", "TailwindCSS", "Laravel", "Statamic"],
+            "imgSrc": "src/assets/project_imgs/lapitekk.png"
+        },
+        {
+            "title": "Veebisepad.ee",
+            "link": "https://veebisepad.ee/",
+            "techs": ["HTML5", "TailwindCSS", "Vuejs"],
+            "imgSrc": "src/assets/project_imgs/veebisepad.png"
+        }
+    ]
+}
