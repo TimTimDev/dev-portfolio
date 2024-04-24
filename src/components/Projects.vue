@@ -9,7 +9,7 @@ import ProjectsCard from './ProjectsCard.vue'
     <p class="mt-2">Client projects I have worked on as part of a team.</p>
   </div>
   
-  <div class="grid grid-cols-6 gap-4 mt-8">
+  <div class="grid grid-cols-6 gap-6 mt-8">
 
     <ProjectsCard  />
 
