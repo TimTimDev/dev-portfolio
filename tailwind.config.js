@@ -11,7 +11,17 @@ export default {
       'black': '#181818',
       'black-soft': '#222222'
     },
-    extend: {},
+    extend: {
+      animation: {
+        'infinite-scroll': 'infinite-scroll 25s linear infinite',
+      },
+      keyframes: {
+        'infinite-scroll': {
+          from: { transform: 'translateX(0)' },
+          to: { transform: 'translateX(-100%)' },
+        }
+      }
+    },
   },
   plugins: [],
 }
