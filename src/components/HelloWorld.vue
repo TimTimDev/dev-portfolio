@@ -9,7 +9,7 @@ defineProps({
 
 <template>
   <div class="text-center flex flex-col items-center">
-    <img alt="A picture of Timo" src="@/assets/Timo.webp" class="rounded shadow-inner shadow-black-soft" width="300" height="300" />
+    <img alt="A picture of Timo" src="@/assets/Timo.webp" class="rounded" width="300" height="300" />
     <h1 class="text-green mt-8">{{ msg }}</h1>
     <h3>My name is <span class="text-green font-semibold">Timo</span> and I'm a <span class="text-green font-semibold">Front-end developer</span>.</h3>
   </div>
