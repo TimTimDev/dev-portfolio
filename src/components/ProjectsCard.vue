@@ -6,9 +6,9 @@ import ProjectCards from "../assets/cards.json"
 
   <a v-for="card in ProjectCards.cards"
   :href="card.link" target="_blank"
-  class="col-span-2 hover:scale-105 rounded-t" >
-    <img :src="card.imgSrc" class="rounded"/>
-    <div class="details">
+  class="col-span-2 transition duration-300 hover:scale-105 rounded bg-black-soft" >
+    <img :src="card.imgSrc" :alt="card.imgAlt" class="rounded-t w-full"/>
+    <div>
       <h3 class="text-lg font-bold text-green mt-4">
         {{ card.title }}
       </h3>
