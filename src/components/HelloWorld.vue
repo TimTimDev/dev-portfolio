@@ -1,41 +1,9 @@
-<script setup>
-defineProps({
-  msg: {
-    type: String,
-    required: true
-  }
-})
-</script>
-
 <template>
-  <div class="text-center flex flex-col items-center">
-    <img alt="A picture of Timo" src="@/assets/Timo.webp" class="rounded" width="300" height="300" />
-    <h1 class="text-green mt-8">{{ msg }}</h1>
-    <h3>My name is <span class="text-green font-semibold">Timo</span> and I'm a <span class="text-green font-semibold">Front-end developer</span>.</h3>
+  <div class="flex items-center justify-between w-full mt-44 mb-96">
+    <div class="text-left">
+      <h1 class="text-8xl">Hi, I'm <span class="text-green">Timo Pirn</span></h1>
+      <h2 class="text-green font-semibold text-3xl mt-8 pl-2">Junior Front-end Developer</h2>
+    </div>
+    <img alt="A picture of Timo" src="@/assets/Timo.webp" class="rounded-full w-[420px] h-[420px] object-cover object-top" />
   </div>
 </template>
-
-<style scoped>
-h1 {
-  font-weight: 500;
-  font-size: 2.6rem;
-  position: relative;
-  top: -10px;
-}
-
-h3 {
-  font-size: 1.2rem;
-}
-
-.greetings h1,
-.greetings h3 {
-  text-align: center;
-}
-
-@media (min-width: 1024px) {
-  .greetings h1,
-  .greetings h3 {
-    text-align: left;
-  }
-}
-</style>
