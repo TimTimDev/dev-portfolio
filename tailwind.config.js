@@ -11,6 +11,9 @@ export default {
       'black': '#181818',
       'black-soft': '#222222'
     },
+    fontFamily: {
+      sans: ['"Open Sans"', 'sans-serif']
+    },
     extend: {
       animation: {
         'infinite-scroll': 'infinite-scroll 25s linear infinite',
