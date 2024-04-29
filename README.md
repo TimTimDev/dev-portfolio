@@ -33,3 +33,5 @@ npm run build
 ```sh
 npm run lint
 ```
+
+### [Figma Link](https://www.figma.com/file/nnpNLtJbUmiU4OF9aseDuK/Portfolio?type=design&node-id=0-3&mode=design&t=fQvY7VmEERpyZWe5-0)
