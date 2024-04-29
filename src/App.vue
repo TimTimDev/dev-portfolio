@@ -15,8 +15,8 @@ import LogoCarousel from './components/LogoCarousel.vue';
     
   </header>
   -->
-  <div class="flex flex-col items-center text-center">
-    <HelloWorld msg="Hello there!" />
+  <div class="flex flex-col items-center text-center font-sans">
+    <HelloWorld />
     <Projects />
     <LogoCarousel />
 
