@@ -2,12 +2,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
-#app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  font-weight: normal;
+html {
+  scroll-behavior: smooth;
 }
+
+
 
 /* width */
 ::-webkit-scrollbar {
