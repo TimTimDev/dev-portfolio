@@ -4,9 +4,7 @@ import IconPerson from '../components/icons/IconPerson.vue'
 
 <template>
 
-    <!-- <div class="rounded-full w-48 h-48 bg-gradient-radial from-green to-black-soft shadow-glow shadow-green"></div> -->
-    <div id="about" class="flex my-48">
-        <!--<IconPerson class="stroke-green scale-[5.5] mt-3.5 mr-20"/> -->
+    <div id="about" class="flex mb-96">
         <div class="text-left">
             <h2 class="text-green text-5xl mb-11 ">About Me</h2>
             <p class="text-3xl">
