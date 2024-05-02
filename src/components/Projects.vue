@@ -4,8 +4,8 @@ import ProjectsCard from './ProjectsCard.vue'
 </script>
 
 <template>
-  <div class="mb-10">
-    <h2 class="font-semibold text-green text-5xl">Client Projects</h2>
+  <div id="projects" class="mb-10">
+    <h2 class="font-semibold text-green text-5xl mb-4">Client Projects</h2>
     <p class="text-3xl mt-2">Client projects I have worked on as part of a team.</p>
   </div>
   
