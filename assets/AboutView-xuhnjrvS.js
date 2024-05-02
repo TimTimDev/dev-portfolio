@@ -1,0 +1,1 @@
+import{_ as e,c as s,o as t,a as o}from"./index-CAkHR9ol.js";const c={},a={class:"about"},_=o("h1",null,"This is the projects page",-1),n=[_];function r(i,d){return t(),s("div",a,n)}const l=e(c,[["render",r]]);export{l as default};
