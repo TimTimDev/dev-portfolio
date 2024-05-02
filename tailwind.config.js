@@ -23,8 +23,14 @@ export default {
           from: { transform: 'translateX(0)' },
           to: { transform: 'translateX(-100%)' },
         }
+      },
+      backgroundImage: {
+        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+      },
+      boxShadow: {
+        'glow': '0 0 100px 0px',
       }
-    },
+    }
   },
   plugins: [],
 }
