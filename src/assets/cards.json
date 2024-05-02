@@ -10,7 +10,7 @@
         {
             "title": "Valmari Foto",
             "link": "https://valmarifoto.com/",
-            "techs": ["HTML5", "TailwindCSS", "Statamic"],
+            "techs": ["HTML5", "TailwindCSS", "Laravel", "Statamic"],
             "imgSrc": "src/assets/project_imgs/valmarifoto_suur.webp",
             "imgAlt": "Screenshot of Valmari Foto webpage"
         },
