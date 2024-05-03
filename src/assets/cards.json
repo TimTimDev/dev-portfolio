@@ -4,35 +4,35 @@
             "title": "Eraspordikool Sepps",
             "link": "https://www.sepps.eu",
             "techs": ["HTML5", "TailwindCSS", "Statamic"],
-            "imgSrc": "@/assets/project_imgs/sepps.webp",
+            "imgSrc": "./src/assets/project_imgs/sepps.webp",
             "imgAlt": "Screenshot of Eraspordikool Sepps webpage"
         },
         {
             "title": "Valmari Foto",
             "link": "https://valmarifoto.com/",
             "techs": ["HTML5", "TailwindCSS", "Laravel", "Statamic"],
-            "imgSrc": "@/assets/project_imgs/valmarifoto_suur.webp",
+            "imgSrc": "./src/assets/project_imgs/valmarifoto_suur.webp",
             "imgAlt": "Screenshot of Valmari Foto webpage"
         },
         {
             "title": "Kalma Ehitus",
             "link": "https://kalmaehitus.ee/",
             "techs": ["HTML5", "TailwindCSS", "Statamic"],
-            "imgSrc": "@/assets/project_imgs/kalma.webp",
+            "imgSrc": "./src/assets/project_imgs/kalma.webp",
             "imgAlt": "Screenshot of Kalma Ehitus webpage"
         },
         {
             "title": "Kohala Lapitekk",
             "link": "https://www.lapitekk.ee/",
             "techs": ["HTML5", "TailwindCSS", "Laravel", "Statamic"],
-            "imgSrc": "@/assets/project_imgs/lapitekk.webp",
+            "imgSrc": "./src/assets/project_imgs/lapitekk.webp",
             "imgAlt": "Screenshot of Kohala Lapitekk webpage"
         },
         {
             "title": "Veebisepad.ee",
             "link": "https://veebisepad.ee/",
             "techs": ["HTML5", "TailwindCSS", "Vuejs"],
-            "imgSrc": "@/assets/project_imgs/veebisepad.webp",
+            "imgSrc": "./src/assets/project_imgs/veebisepad.webp",
             "imgAlt": "Screenshot of Veebisepad webpage"
         }
     ]
