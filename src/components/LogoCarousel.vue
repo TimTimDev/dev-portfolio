@@ -12,7 +12,7 @@ const logos = [
   { src: Html5, alt: 'HTML5' },
   { src: Css3, alt: 'CSS3' },
   { src: Javascript, alt: 'Javascript' },
-  { src: Tailwind, alt: 'Tailwind' },
+  { src: Tailwind, alt: 'TailwindCSS' },
   { src: Statamic, alt: 'Statamic' },
   { src: Vue, alt: 'Vue' },
   { src: Laravel, alt: 'Laravel' }
@@ -20,16 +20,16 @@ const logos = [
 </script>
 
 <template>
-  <div class="grid grid-cols-8 mt-8 mb-[25vh]">
+  <div class="grid grid-cols-8 mt-8 mb-[20vh]">
       <div class="col-start-2 col-span-6 w-full h-28 inline-flex flex-nowrap overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-128px),transparent_100%)]">
-        <ul class="flex items-center justify-center [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll">
+        <ul class="flex items-center justify-center [&_li]:mx-4 sm:[&_li]:mx-8 [&_img]:max-w-8 sm:[&_img]:max-w-11 lg:[&_img]:max-w-none animate-infinite-scroll">
           <template v-for="logo in logos">
             <li>
               <img :src="logo.src" :alt="logo.alt" />
             </li>
           </template>
         </ul>
-        <ul class="flex items-center justify-center [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll" aria-hidden="true">
+        <ul class="flex items-center justify-center [&_li]:mx-4 sm:[&_li]:mx-8 [&_img]:max-w-8 sm:[&_img]:max-w-11 lg:[&_img]:max-w-none animate-infinite-scroll" aria-hidden="true">
           <template v-for="logo in logos">
             <li>
               <img :src="logo.src" :alt="logo.alt" />
